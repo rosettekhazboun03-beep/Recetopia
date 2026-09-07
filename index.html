@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal - Recetopia</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <header>
+    <nav class="navbar navbar-expand-lg bg-transparent py-3">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#">
+                <img src="img/recetopia-logo.png" alt="Recetopia Logo" class="img-fluid logo-img">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRecetopia" aria-controls="navbarRecetopia" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarRecetopia">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-3 navigation-links">
+                    <li class="nav-item">
+                        <a class="nav-link nav-inicio text-decoration-none" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none" href="recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none" href="#">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-none" href="sobrenosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login-link text-decoration-none" href="#">Inicia Sesión</a>
+                    </li>
+                </ul>
+
+                <div class="search-box ms-lg-3 mt-2 mt-lg-0">
+                    <input type="text" placeholder="Buscar...">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <section id="hero" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="titulo-hero">
+                        Descubre algo<br>
+                        nuevo para<br>
+                        <span class="highlight-text">cocinar.</span>
+                    </h1>
+
+                    <p class="subtitulo-hero my-3">
+                        Encuentra recetas para cada<br>
+                        momento, fáciles, nivel y antojo.
+                    </p>
+
+                    <a href="#" class="btn btn-recetopia mt-2">
+                        Explorar recetas
+                    </a>
+                </div>
+
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="img/plato-pagina-inicio.webp" alt="Plato de comida" class="img-fluid hero-img" width="700px">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   <section id="categorias" class="py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="section-title">Explorar por categoría</h2>
+                <a href="#" class="ver-todos-link">Ver todos</a>
+            </div>
+
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3 text-center">
+                <article class="col">
+                    <a href="#" class="category-card d-block text-decoration-none">
+                        <span>Desayunos</span>
+                    </a>
+                </article>
+                <article class="col">
+                    <a href="#" class="category-card d-block text-decoration-none">
+                        <span>Almuerzos</span>
+                    </a>
+                </article>
+                <article class="col">
+                    <a href="#" class="category-card d-block text-decoration-none">
+                        <span>Cena</span>
+                    </a>
+                </article>
+                <article class="col">
+                    <a href="#" class="category-card d-block text-decoration-none">
+                        <span>Postres</span>
+                    </a>
+                </article>
+                <article class="col">
+                    <a href="#" class="category-card d-block text-decoration-none">
+                        <span>Bebidas</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="populares" class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="section-title">Recetas populares</h2>
+                <a href="#" class="ver-todos-link">Ver todos</a>
+            </div>
+
+            <div class="row g-4">
+                <article class="col-12 col-md-4">
+                    <div class="recipe-card">
+                        <img src="img/brownie.webp" alt="Brownies con nuez" class="img-fluid">
+                        <div class="recipe-card-body">
+                            <h3>Brownies con nuez</h3>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 col-md-4">
+                    <div class="recipe-card">
+                        <img src="img/salmon al horno.jpg" alt="Salmón frito" class="img-fluid">
+                        <div class="recipe-card-body">
+                            <h3>Salmon frito</h3>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-12 col-md-4">
+                    <div class="recipe-card">
+                        <img src="img/carbonara.webp" alt="Pasta carbonara" class="img-fluid">
+                        <div class="recipe-card-body">
+                            <h3>Pasta carbonara</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="py-4 mt-4">
+        <div class="container text-center text-muted">
+            <p class="mb-0">© Recetopia - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
